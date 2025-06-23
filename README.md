@@ -51,3 +51,8 @@ VITE v6.2.3  ready in 507 ms
 
 
 Una vez se esté ejecutando el backend junto al frontend se podrá entrar en la página y se podrá ingresar su usuario seguido de su contraseña para iniciar sesión en ella. (Es importante ejecutar el backend, de lo contrario, dará error al intentar iniciar sesión).
+
+
+## Explicación de los diferentes roles en mi proyecto:
+
+Esto es muy importante. Para entender el proyecto se debe considerar que hay 2 tipos de roles en este proyecto, el rol de Viewer (Sólo puede ver las released Notes y el DashboardCliente, ninguna otra página) mientras que el rol administrador puede verlo todo, incluido lo anterior (Además de el Dashboard general y todas las solicitudes). Todo esto está gestionado por strapi y solo el programador o programadores saben el nombre y contraseña que se debe introducir para poder ver este proyecto.
